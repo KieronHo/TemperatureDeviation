@@ -7,7 +7,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.junit.jupiter.api.Test;
-
+/**
+*
+* @author Kieron Ho
+*
+*/
 class AnimalDataSetTest {
 	AnimalDataSet animalOneData = new AnimalDataSet();
 	LocalDateTime timeNow = LocalDate.now().atTime(3, 0);//the time at current day, 3AM
